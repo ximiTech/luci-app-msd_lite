@@ -4,7 +4,7 @@
 uci -q batch <<-EOF >/dev/null
 	delete ucitrack.@msd_lite[-1]
 	add ucitrack msd_lite
-	set ucitrack.@msd_lite[-1].init="msd_lite"
+	set ucitrack.@msd_lite[-1].init=msd_lite
 	commit ucitrack
 EOF
 

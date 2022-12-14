@@ -1,3 +1,4 @@
+require ("luci.sys")
 
 m = Map("msd_lite")
 m.title = translate("Multi Stream daemon Lite")
@@ -5,7 +6,6 @@ m.description = translate("The lightweight version of Multi Stream daemon (msd) 
 
 m:section(SimpleSection).template  = "msd_lite/msd_lite_status"
 
---
 s = m:section(TypedSection, "instance")
 s.addremove = true
 s.anonymous = false
