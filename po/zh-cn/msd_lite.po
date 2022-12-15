@@ -4,3 +4,6 @@ msgstr "未运行"
 
 msgid "RUNNING"
 msgstr "运行中"
+
+msgid "MultiSD_Lite"
+msgstr "MultiSD_Lite"
