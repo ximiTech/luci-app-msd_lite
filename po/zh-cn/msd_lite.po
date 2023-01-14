@@ -7,3 +7,48 @@ msgstr "运行中"
 
 msgid "MultiSD_Lite"
 msgstr "MultiSD_Lite"
+
+msgid "Add instance"
+msgstr "添加实例"
+
+msgid "Enable"
+msgstr "启动"
+
+msgid "Bind address"
+msgstr "绑定地址"
+
+msgid "Source interface"
+msgstr "源接口"
+
+msgid "Disable"
+msgstr "关闭"
+
+msgid "For multicast receive."
+msgstr "用于多播接收。"
+
+msgid "Worker threads"
+msgstr "工作线程"
+
+msgid "0 = auto"
+msgstr "0 = 自动分配"
+
+msgid "Bind threads to CPUs"
+msgstr "CPU线程"
+
+msgid "Disconnect slow clients"
+msgstr "断开慢速客户端"
+
+msgid "Ring buffer size"
+msgstr "环形缓冲区大小"
+
+msgid "Stream receive ring buffer size."
+msgstr "流接收环缓冲区大小"
+
+msgid "Multicast receive socket buffer size."
+msgstr "多播接收套接字缓冲区大小"
+
+msgid "Receive timeout"
+msgstr "接收超时"
+
+msgid "Multicast receive timeout."
+msgstr "组播接收超时"
