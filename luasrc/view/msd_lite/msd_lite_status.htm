@@ -5,9 +5,9 @@ XHR.poll(3, '<%=luci.dispatcher.build_url("admin", "services", "msd_lite", "stat
 		if (data && tb) {
 			var links = "";
 			if (data.running) {
-				links = '<b><font color=green>msd_lite - <%:RUNNING%></font></b></em>';
+				links = '<em><b><font color=green>MultiSD_Lite - <%:RUNNING%></font></b></em>';
 			} else {
-				links = '<b><font color=red>msd_lite - <%:NOT RUNNING%></font></b>';
+				links = '<em><b><font color=red>MultiSD_Lite - <%:NOT RUNNING%></font></b>';
 			}
 
 			tb.innerHTML = links;
