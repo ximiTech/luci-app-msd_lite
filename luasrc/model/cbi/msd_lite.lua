@@ -35,7 +35,7 @@ o.description = translate("For multicast receive.")
 o = s:option(Value, "threads", translate("Worker threads"))
 o.datatype = "uinteger"
 o.default = "0"
-o.description = translate("0 = auto")
+o.description = translate("0 = auto.")
 
 o = s:option(Flag, "bind_to_cpu", translate("Bind threads to CPUs"))
 o.default = o.disabled
