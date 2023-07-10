@@ -23,7 +23,7 @@ o = s:option(DynamicList, "address", translate("Bind address"))
 o.datatype = "list(ipaddrport(1))"
 o.rmempty = false
 
-o = s:option(ListValue, "interface", translate("Source interface"))
+o = s:option(ListValue, "network", translate("Source interface"))
 local interfaces = luci.sys.exec("ls -l /sys/class/net/ 2>/dev/null |awk '{print $9}' 2>/dev/null")
 for interface in string.gmatch(interfaces, "%S+") do
    o:value(interface)
