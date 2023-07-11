@@ -27,7 +27,7 @@ o = s:option(ListValue, "network", translate("Source interface"))
 local x = luci.model.uci.cursor()
 local net = x:get_all("network")
 for interface, config in pairs(net) do
-    if config.proto ~= nil then
+    if interface ~= "loopback" and config.proto ~= nil then
         o:value(interface)
     end
 end
